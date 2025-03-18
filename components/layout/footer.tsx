@@ -1,12 +1,21 @@
+"use client"
+
 import Link from "next/link"
 import { Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { useEffect, useState } from "react"
 
 export default function Footer() {
+  const [currentYear, setCurrentYear] = useState("2024")
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear().toString())
+  }, [])
+
   return (
     <footer className="border-t py-6">
       <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
-        <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+        <p className="text-sm text-muted-foreground">© {currentYear} John Doe. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon">

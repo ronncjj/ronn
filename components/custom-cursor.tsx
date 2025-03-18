@@ -7,8 +7,11 @@ export default function CustomCursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [clicked, setClicked] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
+  const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
+    setIsMounted(true)
+
     const updatePosition = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY })
       setIsVisible(true)
@@ -29,6 +32,8 @@ export default function CustomCursor() {
     }
   }, [clicked])
 
+  // Don't render anything on the server or before mounting
+  if (!isMounted) return null
   if (!isVisible) return null
 
   return (

@@ -18,7 +18,7 @@ export default function WorkExperienceSection() {
           </CardHeader>
           <CardContent className="space-y-6">
             <div>
-              <h4 className="font-semibold text-lg mb-2">Donation Management System | People's Association</h4>
+              <h4 className="font-semibold text-lg mb-2">Donation Management System | People&apos;s Association</h4>
               <p className="text-sm text-muted-foreground mb-3">
                 Led the end-to-end development of a donation management system, taking ownership of the entire project
                 lifecycle from requirements gathering to deployment.

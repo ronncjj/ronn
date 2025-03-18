@@ -8,10 +8,10 @@ export default function ContactSection() {
     <section id="contact" className="container py-24">
       <div className="max-w-md mx-auto space-y-8">
         <div className="text-center space-y-2">
-          <h2 className="text-3xl font-bold tracking-tight">Let's Connect</h2>
+          <h2 className="text-3xl font-bold tracking-tight">Let&apos;s Connect</h2>
           <p className="text-muted-foreground">
-            Looking for a project manager who understands both business and technical aspects? I'd love to discuss how I
-            can contribute to your team's success.
+            Looking for a project manager who understands both business and technical aspects? I&apos;d love to discuss how I
+            can contribute to your team&apos;s success.
           </p>
         </div>
 
