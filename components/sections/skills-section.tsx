@@ -25,7 +25,6 @@ export default function SkillsSection() {
               <li>Requirements Gathering & Analysis</li>
               <li>Agile Methodologies & Scrum</li>
               <li>Risk Management</li>
-              <li>Team Leadership</li>
             </ul>
           </CardContent>
         </Card>
@@ -71,7 +70,6 @@ export default function SkillsSection() {
           </CardHeader>
           <CardContent>
             <ul className="list-disc pl-5 space-y-2">
-              <li>Product Strategy</li>
               <li>Data-Driven Decision Making</li>
               <li>Process Optimization</li>
               <li>User Experience Focus</li>
