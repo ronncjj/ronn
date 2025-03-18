@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <footer className="border-t py-6">
       <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
-        <p className="text-sm text-muted-foreground">© {currentYear} John Doe. All rights reserved.</p>
+        <p className="text-sm text-muted-foreground">© {currentYear} Ronn Chan. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon">

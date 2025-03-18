@@ -20,8 +20,8 @@ export default function ContactSection() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-muted-foreground" />
-                <Link href="mailto:john.doe@example.com" className="text-sm hover:underline">
-                  john.doe@example.com
+                <Link href="mailto:ronnchan96@gmail.com" className="text-sm hover:underline">
+                  ronnchan96@gmail.com
                 </Link>
               </div>
               <div className="flex items-center gap-3">
@@ -52,7 +52,7 @@ export default function ContactSection() {
 
         <div className="flex justify-center">
           <Button asChild>
-            <Link href="mailto:john.doe@example.com">Send Me a Message</Link>
+            <Link href="mailto:ronnchan96@gmail.com">Send Me a Message</Link>
           </Button>
         </div>
       </div>
