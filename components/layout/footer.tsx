@@ -1,0 +1,28 @@
+import Link from "next/link"
+import { Github, Linkedin } from "lucide-react"
+import { Button } from "@/components/ui/button"
+
+export default function Footer() {
+  return (
+    <footer className="border-t py-6">
+      <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
+        <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+        <div className="flex items-center gap-4">
+          <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Button variant="ghost" size="icon">
+              <Github className="h-4 w-4" />
+              <span className="sr-only">GitHub</span>
+            </Button>
+          </Link>
+          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Button variant="ghost" size="icon">
+              <Linkedin className="h-4 w-4" />
+              <span className="sr-only">LinkedIn</span>
+            </Button>
+          </Link>
+        </div>
+      </div>
+    </footer>
+  )
+}
+
