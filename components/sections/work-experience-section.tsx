@@ -13,8 +13,8 @@ export default function WorkExperienceSection() {
       <div className="grid grid-cols-1 gap-8">
         <Card>
           <CardHeader>
-            <CardTitle>Project Lead & Full Stack Developer</CardTitle>
-            <CardDescription>NCS Pte Ltd | 2022 – Present</CardDescription>
+            <CardTitle>Software Engineer & Full Stack Developer</CardTitle>
+            <CardDescription>NCS Pte Ltd | Nov 2022 – Present</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
             <div>

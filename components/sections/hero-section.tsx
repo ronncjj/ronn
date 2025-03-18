@@ -16,10 +16,10 @@ export default function HeroSection() {
     <section id="about" className="container py-24 md:py-32 space-y-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Project Manager with Technical Expertise</h1>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Software Engineer with Technical Expertise</h1>
           <p className="text-xl text-muted-foreground">
-            Bridging business strategy and technical implementation. I leverage my software engineering background to
-            deliver successful projects with a focus on stakeholder satisfaction and business value.
+            Passionate full-stack developer, transforming ideas into rea-life products with a mission to create positive change
+            in the world through technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Button onClick={() => scrollToSection("skills")} className="w-full sm:w-auto">
