@@ -27,23 +27,23 @@ export default function ContactSection() {
               <div className="flex items-center gap-3">
                 <Linkedin className="h-5 w-5 text-muted-foreground" />
                 <Link
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/ronn-chan-9140b91b7/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm hover:underline"
                 >
-                  linkedin.com/in/johndoe
+                  Connect with me on LinkedIn!
                 </Link>
               </div>
               <div className="flex items-center gap-3">
                 <Github className="h-5 w-5 text-muted-foreground" />
                 <Link
-                  href="https://github.com"
+                  href="https://github.com/ronncjj"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm hover:underline"
                 >
-                  github.com/johndoe
+                  github.com/ronncjj
                 </Link>
               </div>
             </div>

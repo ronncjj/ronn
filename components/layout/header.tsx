@@ -116,13 +116,13 @@ export default function Header() {
         </Sheet>
 
         <div className="flex items-center gap-2">
-          <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/ronncjj" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon">
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </Button>
           </Link>
-          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/ronn-chan-9140b91b7/" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon">
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
